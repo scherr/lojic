@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+// Directly based off Oleg Kiselyov's Sokuza Kanren (http://okmij.org/ftp/Scheme/misc.html#sokuza-kanren)
+// with Java-specific and static-typing-specific implementation changes.
+
 public final class Logic {
     public static final class Pair<Car, Cdr> {
         private final Car car;
